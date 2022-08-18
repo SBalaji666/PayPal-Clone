@@ -115,7 +115,7 @@
       .menu {
         color: #fff;
         width: 10rem;
-        height: 3.5rem;
+        height: 4rem;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -130,6 +130,7 @@
 
         span {
           font-size: 1.7rem;
+          text-decoration: underline;
         }
       }
 
@@ -323,7 +324,6 @@
     // Section-1
     .section-1 {
       .banner {
-        top: 25%;
         width: 50rem;
       }
     }
@@ -399,13 +399,6 @@
 //
 @media screen and (max-width: 550px) {
   .front-page {
-    // Section-1
-    .section-1 {
-      .logo {
-        display: none;
-      }
-    }
-
     // section-2
     .section-2 {
       .services {

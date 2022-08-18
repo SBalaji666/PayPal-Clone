@@ -81,6 +81,15 @@ document.querySelectorAll(".signup").forEach((signupBtn) => {
 });
 
 //
+if (window.innerWidth < 550) {
+  const logo = document.querySelector(".logo");
+  logo.innerHTML = `
+  <span class="p-1">P</span>
+  <span class="p-2">P</span>
+  `;
+}
+
+//
 window.addEventListener("resize", () => {
   window.location.reload();
 });
